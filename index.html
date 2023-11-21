@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        
+        <img src="Logo.png" style="width: 70px;margin-left: 10px;user-select: none;">
+        <nav class="nav">
+            <a href="index.html" class="ac">Home</a>
+            <a href="menu.html">Menu List</a>
+            <a href="about.html">Our Story</a>
+            <a href="contact.html">Contact</a>
+            <button class="but">Reservation</button>
+        </nav>
+    </header>
+
+        <div class="wrapper">
+            <span class="icon-close"><ion-icon name="close"></ion-icon></span>
+            <div class="form-box-register">
+                <h2 style="user-select: none;">Reservation</h2>
+                <form name="register" action="#" method="post">
+                    <div class="input-box">
+                        <input type="number" name="no.of.people" placeholder="No Of People" required>
+                    </div>
+                    <div class="input-box">
+                        <input type="text" name="date" placeholder="Date" required>
+                    </div>
+                    <div class="input-box">
+                        <input type="text" name="time" placeholder="Time" required>
+                    </div>
+                    <button type="submit" class="btn" style="background: lightyellow;color: black;">Find Table</button>
+                </form>
+            </div>
+        </div>
+    
+
+    <script src="script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
